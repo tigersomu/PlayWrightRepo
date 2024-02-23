@@ -1,7 +1,9 @@
 var k = 2;
 let noc = 0;
 function numOccurred() {
-    const numbers = [2, 4, 5, 2, 1, 2];
+    const a=[2];
+    const b=[3,1,2,5,2];
+    const numbers = [2, 4, 5, 2, 1, 2,...a,...b];
     // var k = 2;
     // console.log(numbers.length);
     // let noc = 0;
